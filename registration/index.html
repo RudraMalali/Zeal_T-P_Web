@@ -27,7 +27,7 @@
                     <h2 class="title">Apply for job</h2>
                 </div>
                 <div class="card-body">
-                    <form method="POST">
+                    <form enctype="multipart/form-data" action="uploader.php" method="POST">
                         <div class="form-row">
                             <div class="name">Full name</div>
                             <div class="value">
@@ -61,11 +61,13 @@
                                 <div class="label--desc">Upload your CV/Resume or any other relevant file. Max file size 50 MB</div>
                             </div>
                         </div>
-                    </form>
+                    
                 </div>
                 <div class="card-footer">
-                    <button class="btn btn--radius-2 btn--blue-2" type="submit">Send Application</button>
+					<!--<input type="submit" value="Send Application" />-->
+                    <button class="btn btn--radius-2 btn--blue-2" type="submit" name="submit">Send Application</button>
                 </div>
+				</form>
             </div>
         </div>
     </div>
