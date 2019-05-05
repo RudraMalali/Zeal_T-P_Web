@@ -235,7 +235,7 @@ h6 {
 }
 
 .bg-dark {
-  background: #1a1a1a;
+  background:#ffbc3b;
 }
 
 .bg-gra-01 {
@@ -247,11 +247,11 @@ h6 {
 }
 
 .bg-gra-02 {
-  background: -webkit-gradient(linear, left bottom, right top, from(#fc2c77), to(#6c4079));
-  background: -webkit-linear-gradient(bottom left, #fc2c77 0%, #6c4079 100%);
-  background: -moz-linear-gradient(bottom left, #fc2c77 0%, #6c4079 100%);
-  background: -o-linear-gradient(bottom left, #fc2c77 0%, #6c4079 100%);
-  background: linear-gradient(to top right, #fc2c77 0%, #6c4079 100%);
+  background: -webkit-gradient(linear, left bottom, right top, from(#ffbc3b), to(#ffac));
+  background: -webkit-linear-gradient(bottom left, #ffbc3b 0%, #ffac3b 100%);
+  background: -moz-linear-gradient(bottom left, #ffbc3b 0%, #ffac3b 100%);
+  background: -o-linear-gradient(bottom left, #ffbc3b 0%, #ffac3b 100%);
+  background: linear-gradient(to top right, #ffbc3b 0%, #ffac3b 100%);
 }
 
 .bg-gra-03 {
