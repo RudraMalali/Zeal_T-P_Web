@@ -2,7 +2,7 @@
 if(isset($_POST['submit'])){
 $con=new MongoClient();
 $datab=$con->Zeal_TP;
-$collection=$con->Students;
+$collection=$datab->Students;
 
 $ftypeerr=$emptfielderr=$emailerr=" ";
 
